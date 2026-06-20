@@ -157,7 +157,7 @@ button,a{touch-action:manipulation}
 
 <header>
   <div class="bar">
-    <div class="logo"><span class="dot"></span>Сантехника под ключ<small>Иркутск · мастер [Имя]</small></div>
+    <div class="logo"><span class="dot"></span>Сантехника под ключ<small>Иркутск · мастер Илья</small></div>
     <nav>
       <a href="../">Главная</a>
       <a href="#a1">С чего начать</a>
@@ -176,7 +176,7 @@ button,a{touch-action:manipulation}
     <span class="kicker">Заметки мастера</span>
     <h1>Прежде чем начать ремонт в новостройке — прочитайте это</h1>
     <p>Пять коротких разборов без воды: с чего начать, что выбрать и где чаще всего теряют деньги. Пишу как мастер, который делает это руками каждый день.</p>
-    <div class="byline">Мастер <b>[Имя]</b> · сантехника в новостройках Иркутска · договор, гарантия 3 года</div>
+    <div class="byline">Мастер <b>Илья</b> · сантехника в новостройках Иркутска · договор, гарантия 3 года</div>
   </section>
 
   <!-- ARTICLE 1 -->
@@ -524,7 +524,7 @@ button,a{touch-action:manipulation}
 
   <footer>
     <div class="line"></div>
-    Сантехника под ключ · Иркутск · мастер [Имя]<br>
+    Сантехника под ключ · Иркутск · мастер Илья<br>
     Информация в статьях носит ознакомительный характер. Цены и решения уточняются на бесплатном замере.<br>
     <a href="../" style="color:var(--accent);text-decoration:none;font-weight:600">← Вернуться на главную · сантехника под ключ</a>
   </footer>
@@ -536,7 +536,7 @@ const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.t
 document.querySelectorAll('.rv').forEach(el=>io.observe(el));
 
 /* ===== Контакт: сохранить номер в контакты (vCard) ===== */
-const PHONE="+79148983330",PHONE_HUMAN="8 914 898-33-30",CONTACT_NAME="Сантехник под ключ · Иркутск";
+const PHONE="+79148983330",PHONE_HUMAN="8 914 898-33-30",CONTACT_NAME="Сантехник Илья";
 function _toast(m){let t=document.getElementById('vtoast');if(!t){t=document.createElement('div');t.id='vtoast';t.style.cssText='position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#2B303A;color:#fff;padding:12px 18px;border-radius:100px;font:500 14px Manrope,sans-serif;box-shadow:0 10px 30px rgba(0,0,0,.25);z-index:90;max-width:90vw;text-align:center;opacity:0;transition:opacity .3s';document.body.appendChild(t)}t.textContent=m;requestAnimationFrame(()=>t.style.opacity='1');clearTimeout(t._h);t._h=setTimeout(()=>t.style.opacity='0',3200)}
 function saveContact(){const vcf=['BEGIN:VCARD','VERSION:3.0','FN:'+CONTACT_NAME,'N:'+CONTACT_NAME+';;;;','TEL;TYPE=CELL:'+PHONE,'NOTE:Сантехника под ключ в новостройке. Договор, гарантия 3 года.','END:VCARD'].join('\r\n');const b=new Blob([vcf],{type:'text/vcard;charset=utf-8'});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='santehnik-irkutsk.vcf';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),1500);_toast('Контакт скачан — откройте файл, чтобы сохранить номер '+PHONE_HUMAN)}
 document.querySelectorAll('.j-vcf').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();saveContact()}));
