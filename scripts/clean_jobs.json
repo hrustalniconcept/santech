@@ -1,0 +1,412 @@
+{
+  "project": "Датский квартал — карточки чистых планировок",
+  "developer": "Хрустальный парк",
+  "note": "Восстановлено из истории Higgsfield (модель nano_banana_2). Прежняя ветка claude/fervent-fermat-x3amvp и исходные SESSION_STATUS.md/clean_jobs.json не были запушены и утеряны. captions/house/apartment/floor требуется подтвердить пользователем — этажи невозможно восстановить из артефактов.",
+  "drive_folder": "1OswUx8Mkan7KiF-BL6zstZ0OBCMqmFFS",
+  "clean_prompt": "Clean this architectural floor plan into an elegant premium real-estate plan, keeping geometry, scale and proportions 100% identical to the source. CRITICAL: keep the WALLS exactly as in the source — thick walls rendered as solid dark-grey filled poché with their hatching/texture at structural columns. Do NOT thin the walls into light outlines and do NOT make the drawing look empty or washed-out. Keep all furniture and fixtures drawn in detailed crisp line work (beds with bedding, sofas, dining table and chairs, kitchen units with hob and sink, toilet, bathtub, wardrobes with sliding-door hatching, staircase). Keep the room area numbers printed inside the rooms (e.g. 18,42 / 12,45 / 5,34 / 9,47) and balcony area labels in parentheses like (3,81). REMOVE only: the outer dimension chains, extension lines and tick marks, linear measurement numbers outside the rooms (like 1615), axis circles and letters, level marks like +6.000, header text, and the pale blue/pink room color shading. The room interiors and the page background become clean white, but the dark filled walls and all line detail must remain strong and crisp. Reference aesthetic: a high-end residential floor plan with bold dark-grey filled walls, fine furniture line icons and area labels, on a white background. Do not move, rescale, redraw or invent anything; preserve wall fill, textures and proportions exactly.",
+  "regen_model": "nano_banana_pro",
+  "unique_clean_jobs": [
+    {
+      "clean_job": "a3e1c136-4e96-449e-8970-a9683b22614f",
+      "source_uuid": "9fb3ecfc-274e-4182-94ef-d13750b5cf54",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/9fb3ecfc-274e-4182-94ef-d13750b5cf54.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_043600_a3e1c136-4e96-449e-8970-a9683b22614f.png",
+      "created_at": 1782016560.106369
+    },
+    {
+      "clean_job": "ebec1cf9-25a9-4e6a-a029-6ac6703d92fb",
+      "source_uuid": "8e861000-bfe3-4828-a421-4dc392938550",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/8e861000-bfe3-4828-a421-4dc392938550.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044242_ebec1cf9-25a9-4e6a-a029-6ac6703d92fb.png",
+      "created_at": 1782016962.235758
+    },
+    {
+      "clean_job": "3e522dc8-757e-40fc-a7a8-29959e8d1061",
+      "source_uuid": "c982f4f2-e975-4f86-883c-376e3b3f1d9d",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/c982f4f2-e975-4f86-883c-376e3b3f1d9d.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044246_3e522dc8-757e-40fc-a7a8-29959e8d1061.png",
+      "created_at": 1782016966.857206
+    },
+    {
+      "clean_job": "27e9434d-379b-4ca1-ad2f-177b9daeb129",
+      "source_uuid": "64a2c748-3427-4fda-86e1-cadecec15c77",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/64a2c748-3427-4fda-86e1-cadecec15c77.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044251_27e9434d-379b-4ca1-ad2f-177b9daeb129.png",
+      "created_at": 1782016971.540804
+    },
+    {
+      "clean_job": "5b7bd83d-a91a-4186-b817-0e45b8826ad3",
+      "source_uuid": "fef822f4-9b81-4778-9711-980d0ac7b338",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/fef822f4-9b81-4778-9711-980d0ac7b338.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044256_5b7bd83d-a91a-4186-b817-0e45b8826ad3.png",
+      "created_at": 1782016976.287141
+    },
+    {
+      "clean_job": "70d37cae-b00c-4cde-847f-f865028f99af",
+      "source_uuid": "ad3b8d3f-f92b-4c37-b3e7-b0921933bbd9",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/ad3b8d3f-f92b-4c37-b3e7-b0921933bbd9.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044300_70d37cae-b00c-4cde-847f-f865028f99af.png",
+      "created_at": 1782016980.977045
+    },
+    {
+      "clean_job": "165a6791-acf7-4d70-a8b9-0308a35162b7",
+      "source_uuid": "6d4afc99-ab81-41ed-8f20-d1b1449653a2",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/6d4afc99-ab81-41ed-8f20-d1b1449653a2.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044305_165a6791-acf7-4d70-a8b9-0308a35162b7.png",
+      "created_at": 1782016985.672712
+    },
+    {
+      "clean_job": "aaf990fa-3dce-4196-a448-c7e7eca8cea3",
+      "source_uuid": "036f3afa-89fa-47f4-a54e-365132ad88de",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/036f3afa-89fa-47f4-a54e-365132ad88de.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044310_aaf990fa-3dce-4196-a448-c7e7eca8cea3.png",
+      "created_at": 1782016990.020199
+    },
+    {
+      "clean_job": "e31a6c43-40f7-4b9a-910b-28260af8c199",
+      "source_uuid": "9a8fa6bb-7096-468e-a716-28a413123903",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/9a8fa6bb-7096-468e-a716-28a413123903.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044314_e31a6c43-40f7-4b9a-910b-28260af8c199.png",
+      "created_at": 1782016994.285152
+    },
+    {
+      "clean_job": "a4641fcf-6a1f-46e4-9c29-09033504a1f2",
+      "source_uuid": "4a261b31-5309-4cc7-bb36-7321287d3b30",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/4a261b31-5309-4cc7-bb36-7321287d3b30.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044344_a4641fcf-6a1f-46e4-9c29-09033504a1f2.png",
+      "created_at": 1782017024.282597
+    },
+    {
+      "clean_job": "33ef5309-0c4f-4f2b-a5f8-d6c0eb945f5a",
+      "source_uuid": "a174e12d-b002-43f3-9d34-482a2ccbd55c",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/a174e12d-b002-43f3-9d34-482a2ccbd55c.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044349_33ef5309-0c4f-4f2b-a5f8-d6c0eb945f5a.png",
+      "created_at": 1782017029.094617
+    },
+    {
+      "clean_job": "1e0e8f99-45ec-48d9-926f-16495b783734",
+      "source_uuid": "42290a83-ece7-485c-9cfc-8b8a9a7835aa",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/42290a83-ece7-485c-9cfc-8b8a9a7835aa.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044353_1e0e8f99-45ec-48d9-926f-16495b783734.png",
+      "created_at": 1782017033.631122
+    },
+    {
+      "clean_job": "2a68b4c8-6626-4719-9865-1f4e25115ec3",
+      "source_uuid": "7c9a5399-462c-4426-b1cf-2a6567daccbc",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/7c9a5399-462c-4426-b1cf-2a6567daccbc.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044402_2a68b4c8-6626-4719-9865-1f4e25115ec3.png",
+      "created_at": 1782017042.997126
+    },
+    {
+      "clean_job": "c0f7a41a-cb2a-433d-8e9c-e577b8dde8d7",
+      "source_uuid": "e729b3f9-9809-4c8f-a17b-2fa6481e0c3c",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/e729b3f9-9809-4c8f-a17b-2fa6481e0c3c.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044408_c0f7a41a-cb2a-433d-8e9c-e577b8dde8d7.png",
+      "created_at": 1782017048.330668
+    },
+    {
+      "clean_job": "447fe364-579e-4063-aa93-7f0fe9160de2",
+      "source_uuid": "04166913-ba8d-40e6-858f-04ef077aa499",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/04166913-ba8d-40e6-858f-04ef077aa499.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044413_447fe364-579e-4063-aa93-7f0fe9160de2.png",
+      "created_at": 1782017053.165152
+    },
+    {
+      "clean_job": "b44dff2d-2951-403b-bbcd-e75b51524371",
+      "source_uuid": "31f8d7ee-1e00-4ccf-8fbf-655e88c5f53a",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/31f8d7ee-1e00-4ccf-8fbf-655e88c5f53a.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044417_b44dff2d-2951-403b-bbcd-e75b51524371.png",
+      "created_at": 1782017057.388356
+    },
+    {
+      "clean_job": "275c4b96-3b2f-45ae-aea2-35481d752dca",
+      "source_uuid": "6bc1906b-a6e6-4fb4-be72-aced76de019f",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/6bc1906b-a6e6-4fb4-be72-aced76de019f.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044440_275c4b96-3b2f-45ae-aea2-35481d752dca.png",
+      "created_at": 1782017080.863995
+    },
+    {
+      "clean_job": "762bd797-0916-4e62-a512-81e4a6e33328",
+      "source_uuid": "559cebf5-65f9-4a2a-9645-131b7212e4af",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/559cebf5-65f9-4a2a-9645-131b7212e4af.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044445_762bd797-0916-4e62-a512-81e4a6e33328.png",
+      "created_at": 1782017085.563568
+    },
+    {
+      "clean_job": "50a45df4-97b7-4ec2-a5ea-227bad1fb450",
+      "source_uuid": "94da0f1d-8f61-4221-8882-4811ba56cb42",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/94da0f1d-8f61-4221-8882-4811ba56cb42.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044450_50a45df4-97b7-4ec2-a5ea-227bad1fb450.png",
+      "created_at": 1782017090.356182
+    },
+    {
+      "clean_job": "812a1cd4-3a37-48f7-a5ab-29a0230c7727",
+      "source_uuid": "e2a0d499-95f4-4327-88fa-a9fb0803cb82",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/e2a0d499-95f4-4327-88fa-a9fb0803cb82.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044455_812a1cd4-3a37-48f7-a5ab-29a0230c7727.png",
+      "created_at": 1782017095.030638
+    },
+    {
+      "clean_job": "acab4c3b-c481-4139-a80d-423b433d08a3",
+      "source_uuid": "f7a87081-e03c-45de-a858-3e80eb5f3d63",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/f7a87081-e03c-45de-a858-3e80eb5f3d63.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044459_acab4c3b-c481-4139-a80d-423b433d08a3.png",
+      "created_at": 1782017099.651281
+    },
+    {
+      "clean_job": "23223384-1002-41cf-98bd-7b95a3ff9bae",
+      "source_uuid": "eb62a90c-b75f-4d68-ae71-434b582a7196",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/eb62a90c-b75f-4d68-ae71-434b582a7196.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044504_23223384-1002-41cf-98bd-7b95a3ff9bae.png",
+      "created_at": 1782017104.380079
+    },
+    {
+      "clean_job": "7a319d1e-1ee1-42a2-bf70-82df72b2de1f",
+      "source_uuid": "2726b0d0-ab20-4b63-bfe2-006b00767559",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/2726b0d0-ab20-4b63-bfe2-006b00767559.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044509_7a319d1e-1ee1-42a2-bf70-82df72b2de1f.png",
+      "created_at": 1782017109.729395
+    },
+    {
+      "clean_job": "1ae3b840-06fc-442d-a21b-381d4fa2ba47",
+      "source_uuid": "f7067cd9-89e7-4e18-83c0-8c73c31f0f4b",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/f7067cd9-89e7-4e18-83c0-8c73c31f0f4b.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044513_1ae3b840-06fc-442d-a21b-381d4fa2ba47.png",
+      "created_at": 1782017113.869005
+    },
+    {
+      "clean_job": "37fae266-024a-4dd8-ad77-59f3537cdbe6",
+      "source_uuid": "a3bd7ca6-0ef0-48ac-bbfa-8329e846a27a",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/a3bd7ca6-0ef0-48ac-bbfa-8329e846a27a.png",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3Eh88tMbYtaa7niR1Yz5QL8r9Ct/hf_20260621_044818_37fae266-024a-4dd8-ad77-59f3537cdbe6.png",
+      "created_at": 1782017298.875594
+    }
+  ],
+  "cards": [
+    {
+      "id": "01",
+      "src": "a3e1c136-4e96-449e-8970-a9683b22614f.png",
+      "clean_job": "a3e1c136-4e96-449e-8970-a9683b22614f",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "02",
+      "src": "ebec1cf9-25a9-4e6a-a029-6ac6703d92fb.png",
+      "clean_job": "ebec1cf9-25a9-4e6a-a029-6ac6703d92fb",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "03",
+      "src": "3e522dc8-757e-40fc-a7a8-29959e8d1061.png",
+      "clean_job": "3e522dc8-757e-40fc-a7a8-29959e8d1061",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "04",
+      "src": "27e9434d-379b-4ca1-ad2f-177b9daeb129.png",
+      "clean_job": "27e9434d-379b-4ca1-ad2f-177b9daeb129",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "05",
+      "src": "5b7bd83d-a91a-4186-b817-0e45b8826ad3.png",
+      "clean_job": "5b7bd83d-a91a-4186-b817-0e45b8826ad3",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "06",
+      "src": "70d37cae-b00c-4cde-847f-f865028f99af.png",
+      "clean_job": "70d37cae-b00c-4cde-847f-f865028f99af",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "07",
+      "src": "165a6791-acf7-4d70-a8b9-0308a35162b7.png",
+      "clean_job": "165a6791-acf7-4d70-a8b9-0308a35162b7",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "08",
+      "src": "aaf990fa-3dce-4196-a448-c7e7eca8cea3.png",
+      "clean_job": "aaf990fa-3dce-4196-a448-c7e7eca8cea3",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "09",
+      "src": "e31a6c43-40f7-4b9a-910b-28260af8c199.png",
+      "clean_job": "e31a6c43-40f7-4b9a-910b-28260af8c199",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "10",
+      "src": "a4641fcf-6a1f-46e4-9c29-09033504a1f2.png",
+      "clean_job": "a4641fcf-6a1f-46e4-9c29-09033504a1f2",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "11",
+      "src": "33ef5309-0c4f-4f2b-a5f8-d6c0eb945f5a.png",
+      "clean_job": "33ef5309-0c4f-4f2b-a5f8-d6c0eb945f5a",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "12",
+      "src": "1e0e8f99-45ec-48d9-926f-16495b783734.png",
+      "clean_job": "1e0e8f99-45ec-48d9-926f-16495b783734",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "13",
+      "src": "2a68b4c8-6626-4719-9865-1f4e25115ec3.png",
+      "clean_job": "2a68b4c8-6626-4719-9865-1f4e25115ec3",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "14",
+      "src": "c0f7a41a-cb2a-433d-8e9c-e577b8dde8d7.png",
+      "clean_job": "c0f7a41a-cb2a-433d-8e9c-e577b8dde8d7",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "15",
+      "src": "447fe364-579e-4063-aa93-7f0fe9160de2.png",
+      "clean_job": "447fe364-579e-4063-aa93-7f0fe9160de2",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "16",
+      "src": "b44dff2d-2951-403b-bbcd-e75b51524371.png",
+      "clean_job": "b44dff2d-2951-403b-bbcd-e75b51524371",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "17",
+      "src": "275c4b96-3b2f-45ae-aea2-35481d752dca.png",
+      "clean_job": "275c4b96-3b2f-45ae-aea2-35481d752dca",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "18",
+      "src": "762bd797-0916-4e62-a512-81e4a6e33328.png",
+      "clean_job": "762bd797-0916-4e62-a512-81e4a6e33328",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "19",
+      "src": "50a45df4-97b7-4ec2-a5ea-227bad1fb450.png",
+      "clean_job": "50a45df4-97b7-4ec2-a5ea-227bad1fb450",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "20",
+      "src": "812a1cd4-3a37-48f7-a5ab-29a0230c7727.png",
+      "clean_job": "812a1cd4-3a37-48f7-a5ab-29a0230c7727",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "21",
+      "src": "acab4c3b-c481-4139-a80d-423b433d08a3.png",
+      "clean_job": "acab4c3b-c481-4139-a80d-423b433d08a3",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "22",
+      "src": "23223384-1002-41cf-98bd-7b95a3ff9bae.png",
+      "clean_job": "23223384-1002-41cf-98bd-7b95a3ff9bae",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "23",
+      "src": "7a319d1e-1ee1-42a2-bf70-82df72b2de1f.png",
+      "clean_job": "7a319d1e-1ee1-42a2-bf70-82df72b2de1f",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "24",
+      "src": "1ae3b840-06fc-442d-a21b-381d4fa2ba47.png",
+      "clean_job": "1ae3b840-06fc-442d-a21b-381d4fa2ba47",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    },
+    {
+      "id": "25",
+      "src": "37fae266-024a-4dd8-ad77-59f3537cdbe6.png",
+      "clean_job": "37fae266-024a-4dd8-ad77-59f3537cdbe6",
+      "house": null,
+      "apartment": null,
+      "floor": null,
+      "caption": null
+    }
+  ]
+}
